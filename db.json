@@ -1,0 +1,13 @@
+{
+    "weeks": 
+    [
+        {
+            "id": 1 ,
+            "name":"Semana 1"
+        },
+        {
+            "id":2,
+            "name":"Semana 2"
+        }
+    ]
+}
