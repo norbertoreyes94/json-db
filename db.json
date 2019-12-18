@@ -12,7 +12,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Martes",
@@ -20,7 +20,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Miercoles",
@@ -28,7 +28,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Jueves",
@@ -36,7 +36,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Viernes",
@@ -44,7 +44,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Sabado",
@@ -52,7 +52,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Domingo",
@@ -60,7 +60,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 }
             ]
         },
@@ -75,7 +75,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Martes",
@@ -83,7 +83,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Miercoles",
@@ -91,7 +91,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Jueves",
@@ -99,7 +99,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Viernes",
@@ -107,7 +107,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 }
             ]
         },
@@ -122,7 +122,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 },
                 {
                     "name":"Martes",
@@ -130,7 +130,7 @@
                     "snack1":"Receta 2",
                     "lunch":"Receta 3",
                     "snack2":"Receta 4",
-                    "dinner":"Receta 5",
+                    "dinner":"Receta 5"
                 }
             ]
         }
