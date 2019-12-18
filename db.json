@@ -3,15 +3,136 @@
     [
         {
             "id": 1 ,
-            "name":"Semana 1"
+            "name":"Semana 1",
+            "days":
+            [
+                {
+                    "name":"Lunes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Martes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Miercoles",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Jueves",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Viernes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Sabado",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Domingo",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                }
+            ]
         },
         {
             "id":2,
-            "name":"Semana 2"
+            "name":"Semana 2",
+            "days":
+            [
+                {
+                    "name":"Lunes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Martes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Miercoles",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Jueves",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Viernes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                }
+            ]
         },
         {
             "id":3,
-            "name":"Semana 3"
+            "name":"Semana 3",
+            "days":
+            [
+                {
+                    "name":"Lunes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                },
+                {
+                    "name":"Martes",
+                    "breakfast":"Receta 1",
+                    "snack1":"Receta 2",
+                    "lunch":"Receta 3",
+                    "snack2":"Receta 4",
+                    "dinner":"Receta 5",
+                }
+            ]
         }
     ]
 }
