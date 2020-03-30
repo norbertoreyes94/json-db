@@ -42,8 +42,7 @@
             "_id" : 1.0,
             "name_diet" : "Basico",
             "user_creator" : "@mary",
-            "days" : [ 
-                "1"
+            "days" : ["1"]
         }
     ],
     "days":[
