@@ -4,7 +4,7 @@
         "name_user" : "@mary",
         "email" : "mary@correo.com",
         "password" : "m4ry",
-        "sing_date" : ISODate("2020-03-30T00:00:00.000Z"),
+        "sing_date" : "2020-03-30T00:00:00.000Z",
         "avatar" : "avatar.jpg"
     },
     "recipes":{
