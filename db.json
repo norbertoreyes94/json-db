@@ -1,138 +1,28 @@
 {
-    "weeks": 
-    [
-        {
-            "id": 1 ,
-            "name":"Semana 1",
-            "days":
-            [
-                {
-                    "name":"Lunes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Martes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Miercoles",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Jueves",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Viernes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Sabado",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Domingo",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                }
-            ]
-        },
-        {
-            "id":2,
-            "name":"Semana 2",
-            "days":
-            [
-                {
-                    "name":"Lunes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Martes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Miercoles",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Jueves",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Viernes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                }
-            ]
-        },
-        {
-            "id":3,
-            "name":"Semana 3",
-            "days":
-            [
-                {
-                    "name":"Lunes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                },
-                {
-                    "name":"Martes",
-                    "breakfast":"Receta 1",
-                    "snack1":"Receta 2",
-                    "lunch":"Receta 3",
-                    "snack2":"Receta 4",
-                    "dinner":"Receta 5"
-                }
-            ]
-        }
-    ]
+    "users":{
+        "_id" : ObjectId("5e821ec23b5e537de72de51f"),
+        "name_user" : "@mary",
+        "email" : "mary@correo.com",
+        "password" : "m4ry",
+        "sing_date" : ISODate("2020-03-30T00:00:00.000Z"),
+        "avatar" : "avatar.jpg"
+    },
+    "recipes":{
+        "_id" : 1.0,
+        "name_recipes" : "huevos revueltos",
+        "description" : "se rompen dos huevos, se baten y se ponen una sarten a fuego medio",
+        "user_creator" : "@mary",
+        "ingredients" : [ 
+            {
+                "name_ingredient" : "huevos",
+                "cant" : 2.0,
+                "unid" : "und"
+            }, 
+            {
+                "name_ingredient" : "sal",
+                "cant" : 1.0,
+                "unid" : "pizca"
+            }
+        ]
+    }    
 }
