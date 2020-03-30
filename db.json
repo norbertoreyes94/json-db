@@ -1,6 +1,6 @@
 {
     "users":{
-        "_id" : ObjectId("5e821ec23b5e537de72de51f"),
+        "_id" : 1,
         "name_user" : "@mary",
         "email" : "mary@correo.com",
         "password" : "m4ry",
@@ -8,7 +8,7 @@
         "avatar" : "avatar.jpg"
     },
     "recipes":{
-        "_id" : 1.0,
+        "_id" : 1,
         "name_recipes" : "huevos revueltos",
         "description" : "se rompen dos huevos, se baten y se ponen una sarten a fuego medio",
         "user_creator" : "@mary",
