@@ -1,7 +1,7 @@
 {
     "users":[
         {
-            "_id" : 1,
+            "id" : 1,
             "name_user" : "@mary",
             "email" : "mary@correo.com",
             "password" : "m4ry",
@@ -9,7 +9,7 @@
             "avatar" : "avatar.jpg"
         },
         {
-            "_id" : 2,
+            "id" : 2,
             "name_user" : "@cristian",
             "email" : "cristian@correo.com",
             "password" : "cr1st14n",
@@ -19,7 +19,7 @@
     ],
     "recipes":[
         {
-            "_id" : 1,
+            "id" : 1,
             "name_recipes" : "huevos revueltos",
             "description" : "se rompen dos huevos, se baten y se ponen una sarten a fuego medio",
             "user_creator" : "@mary",
@@ -39,7 +39,7 @@
     ],
     "diets":[
         {
-            "_id" : 1.0,
+            "id" : 1,
             "name_diet" : "Basico",
             "user_creator" : "@mary",
             "days" : ["1"]
@@ -47,7 +47,7 @@
     ],
     "days":[
         {
-            "_id" : 1.0,
+            "id" : 1,
             "name_day" : "Lunes",
             "user_creator" : "@mary",
             "meals" : [ 
@@ -60,14 +60,14 @@
     ],
     "ingredients":[
         {
-            "_id" : 1.0,
+            "id" : 1,
             "name_ingredients" : "huevos",
             "user_creator" : "@mary",
             "status" : "creado",
             "unids" : ["und"]
         },
         {
-            "_id" : 2.0,
+            "id" : 2,
             "name_ingredients" : "tomate",
             "user_creator" : "@cristian",
             "status" : "creado",
