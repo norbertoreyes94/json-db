@@ -1,14 +1,16 @@
 {
-    "BD":[
-        "users":{
+    "users":[
+        {
             "_id" : 1,
             "name_user" : "@mary",
             "email" : "mary@correo.com",
             "password" : "m4ry",
             "sing_date" : "2020-03-30T00:00:00.000Z",
             "avatar" : "avatar.jpg"
-        },
-        "recipes":{
+        }
+    ],
+    "recipes":[
+        {
             "_id" : 1,
             "name_recipes" : "huevos revueltos",
             "description" : "se rompen dos huevos, se baten y se ponen una sarten a fuego medio",
@@ -19,12 +21,12 @@
                     "cant" : 2.0,
                     "unid" : "und"
                 }, 
-                {
+                {   
                     "name_ingredient" : "sal",
                     "cant" : 1.0,
                     "unid" : "pizca"
                 }
             ]
-        }    
-    ]        
+        }
+    ]            
 }
