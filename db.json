@@ -7,6 +7,14 @@
             "password" : "m4ry",
             "sing_date" : "2020-03-30T00:00:00.000Z",
             "avatar" : "avatar.jpg"
+        },
+        {
+            "_id" : 2,
+            "name_user" : "@cristian",
+            "email" : "cristian@correo.com",
+            "password" : "cr1st14n",
+            "sing_date" : "2020-03-30T00:00:00.000Z",
+            "avatar" : "avatar.jpg"
         }
     ],
     "recipes":[
@@ -27,6 +35,44 @@
                     "unid" : "pizca"
                 }
             ]
+        }        
+    ],
+    "diets":[
+        {
+            "_id" : 1.0,
+            "name_diet" : "Basico",
+            "user_creator" : "@mary",
+            "days" : [ 
+                "1"
         }
-    ]            
+    ],
+    "days":[
+        {
+            "_id" : 1.0,
+            "name_day" : "Lunes",
+            "user_creator" : "@mary",
+            "meals" : [ 
+                {
+                    "name_meal" : "desayuno",
+                    "recipe" : 1.0
+                }
+            ]
+        }
+    ],
+    "ingredients":[
+        {
+            "_id" : 1.0,
+            "name_ingredients" : "huevos",
+            "user_creator" : "@mary",
+            "status" : "creado",
+            "unids" : ["und"]
+        },
+        {
+            "_id" : 2.0,
+            "name_ingredients" : "tomate",
+            "user_creator" : "@cristian",
+            "status" : "creado",
+            "unids" : ["und","g","Kg"]
+        }
+    ]
 }
