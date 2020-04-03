@@ -19,59 +19,187 @@
     ],
     "recipes":[
         {
-            "id" : 1,
-            "name_recipes" : "huevos revueltos",
-            "description" : "se rompen dos huevos, se baten y se ponen una sarten a fuego medio",
-            "user_creator" : "@mary",
-            "ingredients" : [ 
+            name:'Huevos',
+            image:'https://okdiario.com/img/2018/02/21/huevos-revueltos.jpg',
+            id:'1',
+            steps:[
                 {
-                    "name_ingredient" : "huevos",
-                    "cant" : 2.0,
-                    "unid" : "und"
-                }, 
-                {   
-                    "name_ingredient" : "sal",
-                    "cant" : 1.0,
-                    "unid" : "pizca"
+                    num:1,
+                    description:'Pelar la cebolla y quitar las semillas del tomate'
+                },
+                {
+                    num:2,
+                    description:'Cortar ambos en trocitos pequeños y reservar'
+                },
+                {
+                    num:3,
+                    description:'Poner a calentar una sartén con un chorrito de aceite'
+                },
+                {
+                    num:4,
+                    description:'Cocinar primero la cebolla hasta que se transparente'
+                },
+                {
+                    num:5,
+                    description:'Luego añadir el tomate y dejar que se cocine un poco'
+                },
+                {
+                    num:6,
+                    description:'Añadir los huevos a la sartén y moverlos con una cuchara de madera'
+                },
+                {
+                    num:7,
+                    description:'Sazonar con sal'
+                },
+                {
+                    num:8,
+                    description:'Cocinarlos a gusto de cada quien, hay quienes los prefieren secos y bien cocidos, otros los prefieren jugosos y poco hechos'
+                },
+                {
+                    num:9,
+                    description:'Cuando estén en el punto deseado, retirar del fuego'
+                },
+                {
+                    num:10,
+                    description:'Servir con perejil finamente picado por encima'
+                }
+            ],
+            ingredients: [
+                {
+                    nameIngredient:'huevos',
+                    cantIngredient:2,
+                    unidIngredient:'und'
+                },
+                {
+                    nameIngredient:'tomate',
+                    cantIngredient:1,
+                    unidIngredient:'und'
+                },
+                {
+                    nameIngredient:'cebolla',
+                    cantIngredient:1,
+                    unidIngredient:'und'
+                },
+                {
+                    nameIngredient:'sal',
+                    cantIngredient:1,
+                    unidIngredient:'pizca'
+                },
+                {
+                    nameIngredient:'perejil',
+                    cantIngredient:1,
+                    unidIngredient:'und'
+                }
+            ],
+            cookware:[
+                {
+                    name:"sarten",
+                    cant:1
+                },
+                {
+                    name:"cuchillo",
+                    cant:1
                 }
             ]
-        }        
-    ],
-    "diets":[
-        {
-            "id" : 1,
-            "name_diet" : "Basico",
-            "user_creator" : "@mary",
-            "days" : ["1"]
-        }
-    ],
-    "days":[
-        {
-            "id" : 1,
-            "name_day" : "Lunes",
-            "user_creator" : "@mary",
-            "meals" : [ 
-                {
-                    "name_meal" : "desayuno",
-                    "recipe" : 1.0
-                }
-            ]
-        }
-    ],
-    "ingredients":[
-        {
-            "id" : 1,
-            "name_ingredients" : "huevos",
-            "user_creator" : "@mary",
-            "status" : "creado",
-            "unids" : ["und"]
         },
         {
-            "id" : 2,
-            "name_ingredients" : "tomate",
-            "user_creator" : "@cristian",
-            "status" : "creado",
-            "unids" : ["und","g","Kg"]
+            name:'Cereal 2',
+            image:'https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg',
+            id:'2',
+            steps:[
+                {
+                    num:1,
+                    description:'Poner el cereal en el plato'
+                },
+                {
+                    num:2,
+                    description:'Poner la leche en el plato'
+                }
+            ],
+            ingredients: [
+                {
+                    nameIngredient:'Leche',
+                    cantIngredient:250,
+                    unidIngredient:'mL'
+                },
+                {
+                    nameIngredient:'Cereal',
+                    cantIngredient:100,
+                    unidIngredient:"gr"
+                }
+            ],
+            cookware:[
+                {
+                    name:"plato",
+                    cant:1
+                }
+            ]
+        },
+        {
+            name:'Cereal 3',
+            image:'https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg',
+            id:'3',
+            steps:[
+                {
+                    num:1,
+                    description:'Poner el cereal en el plato'
+                },
+                {
+                    num:2,
+                    description:'Poner la leche en el plato'
+                }
+            ],
+            ingredients: [
+                {
+                    nameIngredient:'Leche',
+                    cantIngredient:250,
+                    unidIngredient:'mL'
+                },
+                {
+                    nameIngredient:'Cereal',
+                    cantIngredient:100,
+                    unidIngredient:"gr"
+                }
+            ],
+            cookware:[
+                {
+                    name:"plato",
+                    cant:1
+                }
+            ]
+        },
+        {
+            name:'Cereal 4',
+            image:'https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg',
+            id:'4',
+            steps:[
+                {
+                    num:1,
+                    description:'Poner el cereal en el plato'
+                },
+                {
+                    num:2,
+                    description:'Poner la leche en el plato'
+                }
+            ],
+            ingredients: [
+                {
+                    nameIngredient:'Leche',
+                    cantIngredient:250,
+                    unidIngredient:'mL'
+                },
+                {
+                    nameIngredient:'Cereal',
+                    cantIngredient:100,
+                    unidIngredient:"gr"
+                }
+            ],
+            cookware:[
+                {
+                    name:"plato",
+                    cant:1
+                }
+            ]
         }
     ]
 }
