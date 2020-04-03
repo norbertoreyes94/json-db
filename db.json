@@ -105,7 +105,7 @@
         {
             "name":"Cereal 2",
             "image":"https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg",
-            "id":"2"
+            "id":"2",
             "steps":[
                 {
                     "num":1,
@@ -138,7 +138,7 @@
                 {
             "name":"Cereal 3",
             "image":"https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg",
-            "id":"3"
+            "id":"3",
             "steps":[
                 {
                     "num":1,
@@ -171,7 +171,7 @@
         {
             "name":"Cereal 4",
             "image":"https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg",
-            "id":"4"
+            "id":"4",
             "steps":[
                 {
                     "num":1,
