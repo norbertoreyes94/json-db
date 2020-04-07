@@ -17,6 +17,18 @@
             "avatar" : "avatar.jpg"
         }
     ],
+    "calendar":[
+        {
+            "id": 1
+            "name": "Semana low-cost",
+            "days": 7
+        },
+        {
+            "id": 2
+            "name": "Semana normal",
+            "days": 7
+        }        
+    ],
     "recipes":[
         {
             "name":"Huevos",
