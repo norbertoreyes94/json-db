@@ -21,13 +21,99 @@
         {
             "id": 1,
             "name":"Semana low-cost",
-            "days": 7
+            "daysId": [1,2,3,4]
         },
         {
             "id": 2,
             "name":"Semana normal",
-            "days": 7
+            "daysId": [5,6]
         }        
+    ],
+    "days":[
+        {
+            "id":1,
+            "name":"Lunes",
+            "meals":[
+                {
+                    "nameMeal":"desayuno"
+                    "recipeId": 1
+                },
+                {
+                    "nameMeal":"Segundo desayuno"
+                    "recipeId": 2
+                }
+            ]
+        },
+                {
+            "id":2,
+            "name":"Martes",
+            "meals":[
+                {
+                    "nameMeal":"desayuno"
+                    "recipeId": 2
+                },
+                {
+                    "nameMeal":"Segundo desayuno"
+                    "recipeId": 3
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Miercoles",
+            "meals":[
+                {
+                    "nameMeal":"desayuno"
+                    "recipeId": 4
+                },
+                {
+                    "nameMeal":"Segundo desayuno"
+                    "recipeId": 1
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":"Jueves",
+            "meals":[
+                {
+                    "nameMeal":"desayuno"
+                    "recipeId": 1
+                },
+                {
+                    "nameMeal":"Segundo desayuno"
+                    "recipeId": 2
+                }
+            ]
+        },
+        {
+            "id":5,
+            "name":"Viernes",
+            "meals":[
+                {
+                    "nameMeal":"desayuno"
+                    "recipeId": 4
+                },
+                {
+                    "nameMeal":"Segundo desayuno"
+                    "recipeId": 3
+                }
+            ]
+        },
+        {
+            "id":6,
+            "name":"Sabado",
+            "meals":[
+                {
+                    "nameMeal":"desayuno"
+                    "recipeId": 1
+                },
+                {
+                    "nameMeal":"Segundo desayuno"
+                    "recipeId": 2
+                }
+            ]
+        }
     ],
     "recipes":[
         {
