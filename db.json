@@ -35,11 +35,11 @@
             "name":"Lunes",
             "meals":[
                 {
-                    "nameMeal":"desayuno"
+                    "nameMeal":"desayuno",
                     "recipeId": 1
                 },
                 {
-                    "nameMeal":"Segundo desayuno"
+                    "nameMeal":"Segundo desayuno",
                     "recipeId": 2
                 }
             ]
@@ -49,11 +49,11 @@
             "name":"Martes",
             "meals":[
                 {
-                    "nameMeal":"desayuno"
+                    "nameMeal":"desayuno",
                     "recipeId": 2
                 },
                 {
-                    "nameMeal":"Segundo desayuno"
+                    "nameMeal":"Segundo desayuno",
                     "recipeId": 3
                 }
             ]
@@ -63,11 +63,11 @@
             "name":"Miercoles",
             "meals":[
                 {
-                    "nameMeal":"desayuno"
+                    "nameMeal":"desayuno",
                     "recipeId": 4
                 },
                 {
-                    "nameMeal":"Segundo desayuno"
+                    "nameMeal":"Segundo desayuno",
                     "recipeId": 1
                 }
             ]
@@ -77,11 +77,11 @@
             "name":"Jueves",
             "meals":[
                 {
-                    "nameMeal":"desayuno"
+                    "nameMeal":"desayuno",
                     "recipeId": 1
                 },
                 {
-                    "nameMeal":"Segundo desayuno"
+                    "nameMeal":"Segundo desayuno",
                     "recipeId": 2
                 }
             ]
@@ -91,11 +91,11 @@
             "name":"Viernes",
             "meals":[
                 {
-                    "nameMeal":"desayuno"
+                    "nameMeal":"desayuno",
                     "recipeId": 4
                 },
                 {
-                    "nameMeal":"Segundo desayuno"
+                    "nameMeal":"Segundo desayuno",
                     "recipeId": 3
                 }
             ]
@@ -105,11 +105,11 @@
             "name":"Sabado",
             "meals":[
                 {
-                    "nameMeal":"desayuno"
+                    "nameMeal":"desayuno",
                     "recipeId": 1
                 },
                 {
-                    "nameMeal":"Segundo desayuno"
+                    "nameMeal":"Segundo desayuno",
                     "recipeId": 2
                 }
             ]
