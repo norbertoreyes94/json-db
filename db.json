@@ -1,303 +1,32 @@
 {
-    "users":[
+    "cursos":[
         {
-            "id" : 1,
-            "name_user" : "@mary",
-            "email" : "mary@correo.com",
-            "password" : "m4ry",
-            "sing_date" : "2020-03-30T00:00:00.000Z",
-            "avatar" : "avatar.jpg"
+          "id": 1,
+          "titulo": "React desde cero",
+          "image": "https://edteam-media.s3.amazonaws.com/courses/original/5eaaec0b-fa78-4f48-94b6-61b757e1f5fa.png",
+          "price": 40,
+          "profesor": "Beto Quiroga"
         },
         {
-            "id" : 2,
-            "name_user" : "@cristian",
-            "email" : "cristian@correo.com",
-            "password" : "cr1st14n",
-            "sing_date" : "2020-03-30T00:00:00.000Z",
-            "avatar" : "avatar.jpg"
-        }
-    ],
-    "calendar":[
+          "id": 2,
+          "titulo": "Drupal desde cero",
+          "image": "https://edteam-media.s3.amazonaws.com/courses/original/3c84b04b-4f00-4916-b161-ffe5c6132d19.jpg",
+          "price": 30,
+          "profesor": "Beto Quiroga"
+        }, 
         {
-            "id": 1,
-            "name":"Semana low-cost",
-            "daysId": [1,2,3,4]
-        },
+          "id": 3,
+          "titulo": "Go desde cero",
+          "image": "https://edteam-media.s3.amazonaws.com/courses/original/91e149d0-961a-4594-a8ff-0a625be9cdd2.png",
+          "price": 50,
+          "profesor": "Alexys Lozada"
+        }, 
         {
-            "id": 2,
-            "name":"Semana normal",
-            "daysId": [5,6]
-        }        
-    ],
-    "days":[
-        {
-            "id":1,
-            "name":"Lunes",
-            "meals":[
-                {
-                    "nameMeal":"desayuno",
-                    "recipeId": 1
-                },
-                {
-                    "nameMeal":"Segundo desayuno",
-                    "recipeId": 2
-                }
-            ]
-        },
-                {
-            "id":2,
-            "name":"Martes",
-            "meals":[
-                {
-                    "nameMeal":"desayuno",
-                    "recipeId": 2
-                },
-                {
-                    "nameMeal":"Segundo desayuno",
-                    "recipeId": 3
-                }
-            ]
-        },
-        {
-            "id":3,
-            "name":"Miercoles",
-            "meals":[
-                {
-                    "nameMeal":"desayuno",
-                    "recipeId": 4
-                },
-                {
-                    "nameMeal":"Segundo desayuno",
-                    "recipeId": 1
-                }
-            ]
-        },
-        {
-            "id":4,
-            "name":"Jueves",
-            "meals":[
-                {
-                    "nameMeal":"desayuno",
-                    "recipeId": 1
-                },
-                {
-                    "nameMeal":"Segundo desayuno",
-                    "recipeId": 2
-                }
-            ]
-        },
-        {
-            "id":5,
-            "name":"Viernes",
-            "meals":[
-                {
-                    "nameMeal":"desayuno",
-                    "recipeId": 4
-                },
-                {
-                    "nameMeal":"Segundo desayuno",
-                    "recipeId": 3
-                }
-            ]
-        },
-        {
-            "id":6,
-            "name":"Sabado",
-            "meals":[
-                {
-                    "nameMeal":"desayuno",
-                    "recipeId": 1
-                },
-                {
-                    "nameMeal":"Segundo desayuno",
-                    "recipeId": 2
-                }
-            ]
-        }
-    ],
-    "recipes":[
-        {
-            "name":"Huevos",
-            "image":"https://okdiario.com/img/2018/02/21/huevos-revueltos.jpg",
-            "id":"1",
-            "steps":[
-                {
-                    "num":1,
-                    "description":"Pelar la cebolla y quitar las semillas del tomate"
-                },
-                {
-                    "num":2,
-                    "description":"Cortar ambos en trocitos pequeños y reservar"
-                },
-                {
-                    "num":3,
-                    "description":"Poner a calentar una sartén con un chorrito de aceite"
-                },
-                {
-                    "num":4,
-                    "description":"Cocinar primero la cebolla hasta que se transparente"
-                },
-                {
-                    "num":5,
-                    "description":"Luego añadir el tomate y dejar que se cocine un poco"
-                },
-                {
-                    "num":6,
-                    "description":"Añadir los huevos a la sartén y moverlos con una cuchara de madera"
-                },
-                {
-                    "num":7,
-                    "description":"Sazonar con sal"
-                },
-                {
-                    "num":8,
-                    "description":"Cocinarlos a gusto de cada quien, hay quienes los prefieren secos y bien cocidos, otros los prefieren jugosos y poco hechos"
-                },
-                {
-                    "num":9,
-                    "description":"Cuando estén en el punto deseado, retirar del fuego"
-                },
-                {
-                    "num":10,
-                    "description":"Servir con perejil finamente picado por encima"
-                }
-            ],
-            "ingredients": [
-                {
-                    "nameIngredient":"huevos",
-                    "cantIngredient":2,
-                    "unidIngredient":"und"
-                },
-                {
-                    "nameIngredient":"tomate",
-                    "cantIngredient":1,
-                    "unidIngredient":"und"
-                },
-                {
-                    "nameIngredient":"cebolla",
-                    "cantIngredient":1,
-                    "unidIngredient":"und"
-                },
-                {
-                    "nameIngredient":"sal",
-                    "cantIngredient":1,
-                    "unidIngredient":"pizca"
-                },
-                {
-                    "nameIngredient":"perejil",
-                    "cantIngredient":1,
-                    "unidIngredient":"und"
-                }
-            ],
-            "cookware":[
-                {
-                    "name":"sarten",
-                    "cant":1
-                },
-                {
-                    "name":"cuchillo",
-                    "cant":1
-                }
-            ]
-        },
-        {
-            "name":"Cereal 2",
-            "image":"https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg",
-            "id":"2",
-            "steps":[
-                {
-                    "num":1,
-                    "description":"Poner el cereal en el plato"
-                },
-                {
-                    "num":2,
-                    "description":"Poner la leche en el plato"
-                }
-            ],
-            "ingredients": [
-                {
-                    "nameIngredient":"Leche",
-                    "cantIngredient":250,
-                    "unidIngredient":"mL"
-                },
-                {
-                    "nameIngredient":"Cereal",
-                    "cantIngredient":100,
-                    "unidIngredient":"gr"
-                }
-            ],
-            "cookware":[
-                {
-                    "name":"plato",
-                    "cant":1
-                }
-            ]
-        },
-                {
-            "name":"Cereal 3",
-            "image":"https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg",
-            "id":"3",
-            "steps":[
-                {
-                    "num":1,
-                    "description":"Poner el cereal en el plato"
-                },
-                {
-                    "num":2,
-                    "description":"Poner la leche en el plato"
-                }
-            ],
-            "ingredients": [
-                {
-                    "nameIngredient":"Leche",
-                    "cantIngredient":250,
-                    "unidIngredient":"mL"
-                },
-                {
-                    "nameIngredient":"Cereal",
-                    "cantIngredient":100,
-                    "unidIngredient":"gr"
-                }
-            ],
-            "cookware":[
-                {
-                    "name":"plato",
-                    "cant":1
-                }
-            ]
-        },
-        {
-            "name":"Cereal 4",
-            "image":"https://previews.123rf.com/images/volff/volff1607/volff160700192/60157497-cereal-de-cereales-y-leche-desayuno-de-la-ma%C3%B1ana.jpg",
-            "id":"4",
-            "steps":[
-                {
-                    "num":1,
-                    "description":"Poner el cereal en el plato"
-                },
-                {
-                    "num":2,
-                    "description":"Poner la leche en el plato"
-                }
-            ],
-            "ingredients": [
-                {
-                    "nameIngredient":"Leche",
-                    "cantIngredient":250,
-                    "unidIngredient":"mL"
-                },
-                {
-                    "nameIngredient":"Cereal",
-                    "cantIngredient":100,
-                    "unidIngredient":"gr"
-                }
-            ],
-            "cookware":[
-                {
-                    "name":"plato",
-                    "cant":1
-                }
-            ]
+          "id": 4,
+          "titulo": "HTML desde cero",
+          "image": "https://edteam-media.s3.amazonaws.com/courses/original/f1fa315c-d94a-4fba-b408-cc852a2f4e41.jpg",
+          "price": 10,
+          "profesor": "Alvaro Felipe"
         }
     ]
 }
